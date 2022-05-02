@@ -11,7 +11,7 @@ namespace CNC
     public class CreateGCode : GH_Component
     {
 
-        public CreateGCode() : base("CNC", "CNC", "CNC", "CNC", "CNC") { }
+        public CreateGCode() : base("GCode", "GCode", "Generate the GCode", "CNC", "CNC") { }
 
 
 
@@ -32,7 +32,9 @@ namespace CNC
             pManager.AddTextParameter("dir", "dir", "dir", GH_ParamAccess.item);
             pManager.AddTextParameter("name", "name", "name", GH_ParamAccess.item);
             pManager.AddNumberParameter("clearance", "clear", "clearance", GH_ParamAccess.item, 20);
-            pManager.AddNumberParameter("spindlespeed", "seed", "spindlespeed", GH_ParamAccess.item, 6000);
+            pManager.AddNumberParameter("spindlespeed", "seed", "spindlespeed", GH_ParamAccess.item, 6000);//this will be calculated
+            //pManager.AddNumberParameter("ToolRadius", "ToolRadius", "Tool radius for offset correction, use a negative value for inside, positive for outside", GH_ParamAccess.item);
+
 
         }
 
@@ -119,6 +121,6 @@ namespace CNC
             }
         }
 
-        public override Guid ComponentGuid => new Guid("5F356CC5 - 0AD8 - 4D6F - 8CD9 - 4EAF671D469C");
+        public override Guid ComponentGuid => new Guid("5F356CC5-0AD8-4D6F-8CD9-4EAF671D469C");
     }
 }
