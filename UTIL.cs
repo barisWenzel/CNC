@@ -63,8 +63,9 @@ namespace CNC
 
         public static int getSchnittgeschwindigkeit(string material)
         {
+            //Richtwerte von hier: //https://www.precifast.de/schnittgeschwindigkeit-beim-fraesen-berechnen/
 
-            int  schnittgeschwindigkeit = 0;
+            int schnittgeschwindigkeit = 0;
 
             if (material == "Stahl")
                 schnittgeschwindigkeit = 100;
@@ -107,5 +108,13 @@ namespace CNC
 
 
         */
+
+        public static double getVorschub(int zahnzahl, int drehzahl, int vorschubProZahn)//feedrate
+        {
+            // Vorschub = Zähnezahl * Drehzahl * Vorschub pro Zahn
+
+            return zahnzahl * drehzahl * vorschubProZahn;
+
+        }
     }
 }
