@@ -1,0 +1,9 @@
+L:\Github\CNC\CNC\bin\Debug\net48\CNC.gha
+L:\Github\CNC\CNC\bin\Debug\net48\CNC.pdb
+L:\Github\CNC\CNC\obj\Debug\net48\CNC.GeneratedMSBuildEditorConfig.editorconfig
+L:\Github\CNC\CNC\obj\Debug\net48\CNC.AssemblyInfoInputs.cache
+L:\Github\CNC\CNC\obj\Debug\net48\CNC.AssemblyInfo.cs
+L:\Github\CNC\CNC\obj\Debug\net48\CNC.csproj.CoreCompileInputs.cache
+L:\Github\CNC\CNC\obj\Debug\net48\CNC.gha
+L:\Github\CNC\CNC\obj\Debug\net48\CNC.pdb
+L:\Github\CNC\CNC\obj\Debug\net48\CNC.csproj.AssemblyReference.cache
